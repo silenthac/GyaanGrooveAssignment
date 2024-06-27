@@ -1,0 +1,83 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.title{
+    color: red;
+    font-size: x-large;
+    margin: 15px;
+    font-weight: bold;
+
+}
+
+.middle{
+    margin: 10px;
+}
+
+.input{
+    width: 400px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn{
+    
+    width: 100px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.middle{
+    display: flex;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 8px;
+    
+
+    
+}
+
+.sign{
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+.fav{
+    margin: 10px;
+
+}
+
+.material-icons{
+    margin-top: 8px;
+}
